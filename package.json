@@ -1,0 +1,33 @@
+{
+  "name": "Digital-Business-UI-Tech-Challenge",
+  "version": "1.0.0",
+  "author": "Blake Schwartz",
+  "main": "server.js",
+  "devDependencies": {
+    "node-sass": "^4.9.0",
+    "rollup": "^0.58.1",
+    "rollup-plugin-buble": "^0.19.2",
+    "rollup-plugin-clean": "^1.0.0",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-fill-html": "^1.1.0",
+    "rollup-plugin-inject": "^2.0.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-postcss": "^1.6.1",
+    "rollup-plugin-svelte": "^4.0.0",
+    "rollup-plugin-uglify": "^3.0.0",
+    "serve": "^6.5.6",
+    "svelte": "^2.0.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "serve public & rollup -c -w",
+    "start": "npm run build && node server.js"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "express": "^4.16.3",
+    "fontawesome": "^4.7.2",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  }
+}
